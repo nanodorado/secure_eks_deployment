@@ -82,15 +82,4 @@ checkov -d terraform --external-checks-dir checkov-custom-policies
 
 **Mariano Dorado**  
 Sr. Cybersecurity Engineer  
-[LinkedIn →](https://www.linkedin.com/in/mariano-dorado)  
 [GitHub →](https://github.com/nanodorado)
-
----
-
-## 📬 Contributions & Feedback
-
-Feel free to fork, star ⭐️, or open issues for suggestions and improvements. Contributions welcome!
-
----
-
-Stay secure. Automate wisely. 🚀
