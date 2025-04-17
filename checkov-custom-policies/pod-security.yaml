@@ -1,0 +1,12 @@
+metadata:
+  name: "CKV_CUSTOM_POD_SECURITY"
+  category: "k8s"
+  severity: "HIGH"
+definition:
+  cond_type: "attribute"
+  resource_types:
+    - "kubernetes_pod"
+    - "kubernetes_deployment"
+  attribute: "spec.template.spec.containers[*].securityContext"
+  operator: "exists"
+  value: true

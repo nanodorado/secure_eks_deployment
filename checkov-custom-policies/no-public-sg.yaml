@@ -1,0 +1,11 @@
+metadata:
+  name: "CKV_CUSTOM_NO_PUBLIC_SG"
+  category: "networking"
+  severity: "HIGH"
+definition:
+  cond_type: "attribute"
+  resource_types:
+    - "aws_security_group_rule"
+  attribute: "cidr_blocks"
+  operator: "contains"
+  value: "0.0.0.0/0"
